@@ -1,0 +1,120 @@
+.order{
+    margin:10px 100px;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #DAD3D3;
+}
+.order h1{
+    margin: 10px 30px;
+}
+.box{
+    border: 1px solid #DAD3D3;
+    margin:  auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+    height: auto;
+}
+.flex{
+    display: flex;
+    /* margin-top: -10px; */
+    justify-content: space-between;
+}
+.pro{
+    margin-top: -30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pro h5{
+    color: #E8974D;
+    font-weight: 500;
+}
+
+.delivered{
+    color: green;
+}
+.cancelled{
+    color: #942237;
+}
+.color{
+    color: #6D0F0F;
+}
+
+.second{
+    margin-top: -35px;
+}
+.menu-btn button{
+    border: 1px solid #650B0B;
+    background-color: white;
+    /* color: white; */
+    width: 100px;
+}
+.acc-dec-btn button{
+    margin: 4px;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid #583737;
+    background-color: #650B0B;
+    color: white;
+
+}
+
+.modalBox{
+    border: 1px solid #DAD3D3;
+}
+
+
+/* .item-details{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.item{
+    display: flex;
+    flex-direction: row;
+}
+
+.item-img img{
+    width: 90px;
+    height: 90px;
+    /* margin: 3px; */
+
+    margin-top: 12px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.item-fields{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.itemName{
+    margin-left: -2px;
+    margin-top: 3px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.itemDesc{
+    margin-top: -2px;
+    font-size: 15px;
+}
+
+.amount{
+    margin-left: 3px;
+    font-size: 19px;
+    font-family:sans-serif;
+}
+
+
+.item-fields span{
+    justify-content: flex-start;
+}
+

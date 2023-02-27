@@ -1,0 +1,22 @@
+.sidebar{
+    margin-top: -30px;
+    border-right: 1px solid black;
+    text-align: center;
+   
+    /* justify-content: center; */
+}
+
+.links{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    /* justify-content: space-around; */
+}
+
+.profileLink{
+    padding: 40px;
+}
+
+
